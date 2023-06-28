@@ -15,8 +15,8 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 1. [OpenAI API Key](https://platform.openai.com/account/api-keys) for
    [OpenAI Authentication](https://platform.openai.com/docs/api-reference/authentication)
 1. [docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
-1. [make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
 1. [git](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/git.md)
+1. [make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
 
 ## Quickstart
 
@@ -27,7 +27,7 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
     git clone https://github.com/Senzing/senzing-with-chatgpt-notebook.git
     ```
 
-    1. The following example command are issued from the repository directory.
+    **Note:** The following example commands are issued from the repository directory.
 
 1. Build the Docker image.
    Example:
