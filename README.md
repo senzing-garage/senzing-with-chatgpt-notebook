@@ -21,7 +21,7 @@ Simply view the Python notebook which shows the fully executed Python.
 1. Prerequisites:
     1. [OpenAI GPT-4 API Access](https://openai.com/waitlist/gpt-4-api)
         1. [How can I access GPT-4?](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4)
-    1. [OpenAI API Key](https://platform.openai.com/account/api-keys) for
+    1. An [OpenAI API Key](https://platform.openai.com/account/api-keys) for
        [OpenAI Authentication](https://platform.openai.com/docs/api-reference/authentication)
     1. [docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
     1. [git](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/git.md)
