@@ -11,7 +11,8 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this [blo
 
 ## Prerequisite
 
-1. OpenAI API Key ([OpenAI Authentication](https://platform.openai.com/docs/api-reference/authentication))
+1. [OpenAI API Key](https://platform.openai.com/account/api-keys) for
+   [OpenAI Authentication](https://platform.openai.com/docs/api-reference/authentication)
 1. [Docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
 1. [Make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
 
@@ -33,11 +34,15 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this [blo
         make build
         ```
 
-    1. `make run`
+    1. Run the Docker container.
+       Example:
 
-2. Open the demo notebook
+        ```console
+        make run
+        ```
 
-- Go to: <http://localhost:8888/notebooks/demo.ipynb>
+1. Open the demo notebook.
+    1. Visit [http://localhost:8888/notebooks/demo.ipynb](http://localhost:8888/notebooks/demo.ipynb)
 
 ## Data
 
