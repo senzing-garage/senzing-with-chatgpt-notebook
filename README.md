@@ -53,7 +53,8 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 1. Open the Jupyter notebook demonstration.
     1. Visit [http://localhost:8888/notebooks/demo.ipynb](http://localhost:8888/notebooks/demo.ipynb)
 
-1. In the Jupyter notebook, from the menu bar, select `Kernel` > `Restart & Run All`.
+1. In the Jupyter notebook
+    1. From the menu bar, select `Kernel` > `Restart & Run All`.
     1. Click the "Restart and Run All Cells" button.
 1. View the results at the bottom of the Jupyter Notebook page.
 
