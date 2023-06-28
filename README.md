@@ -14,6 +14,7 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 
 1. [OpenAI API Key](https://platform.openai.com/account/api-keys) for
    [OpenAI Authentication](https://platform.openai.com/docs/api-reference/authentication)
+1. [OpenAI GPT-4 API Access](https://openai.com/waitlist/gpt-4-api)
 1. [docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
 1. [git](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/git.md)
 1. [make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
@@ -68,8 +69,8 @@ If you want to use your own data, you can either:
 1. Follow the [Quickstart for Docker](https://senzing.zendesk.com/hc/en-us/articles/12938524464403-Quickstart-For-Docker) guide.
 1. Modify
    [SENZING_ENGINE_CONFIGURATION_JSON](https://github.com/Senzing/knowledge-base/blob/main/lists/environment-variables.md#senzing_engine_configuration_json)
-   in
-   [devcontainer.env](https://github.com/kakugawa/senzing-entity-resolution-plugin/blob/main/.devcontainer/devcontainer.env).
+   in the
+   [Dockerfile](https://github.com/Senzing/senzing-with-chatgpt-notebook/blob/main/Dockerfile).
 
 ## Cleanup
 
