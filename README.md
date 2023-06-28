@@ -19,8 +19,7 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 
 ## Quickstart
 
-1. Start a jupyter notebook server via docker:
-
+1. Start a Jupyter notebook server via Docker:
     1. Set the environment variable `OPENAI_API_KEY` to your OpenAI API Key.
        Example:
 
@@ -42,8 +41,12 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
         make run
         ```
 
-1. Open the demo notebook.
+1. Open the Jupyter notebook demonstration.
     1. Visit [http://localhost:8888/notebooks/demo.ipynb](http://localhost:8888/notebooks/demo.ipynb)
+
+1. In the Jupyter notebook, select `Kernel` > `Restart & Run All`.
+    1. Click the "Restart and Run All Cells" button.
+1. View the results at the bottom of the Jupyter Notebook page.
 
 ## Data
 
