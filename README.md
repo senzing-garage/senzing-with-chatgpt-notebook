@@ -1,13 +1,14 @@
 # Senzing ChatGPT Notebook Demo
 
-A demo of Senzing Conversational AI for Entity Resolution announced in this [blog post](https://senzing.com/first-conversational-ai-for-entity-resolution/)!
+A demo of Senzing Conversational AI for Entity Resolution announced in this
+[blog post](https://senzing.com/first-conversational-ai-for-entity-resolution/).
 
 ## Features
 
-- Show examples of entities with either matches, possible matches, or relationships.
-- Show details about an entity.
-- Show step-by-step details of how an entity was resolved.
-- Search for entities by entity attributes.
+1. Show examples of entities with either matches, possible matches, or relationships.
+1. Show details about an entity.
+1. Show step-by-step details of how an entity was resolved.
+1. Search for entities by entity attributes.
 
 ## Prerequisite
 
