@@ -14,32 +14,41 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 
 1. [OpenAI API Key](https://platform.openai.com/account/api-keys) for
    [OpenAI Authentication](https://platform.openai.com/docs/api-reference/authentication)
-1. [Docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
-1. [Make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
+1. [docker](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/docker.md)
+1. [make](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/make.md)
+1. [git](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/git.md)
 
 ## Quickstart
 
-1. Start a Jupyter notebook server via Docker:
-    1. Set the environment variable `OPENAI_API_KEY` to your OpenAI API Key.
-       Example:
+1. Clone the repository.
+   Example:
 
-        ```console
-        export OPENAI_API_KEY=sk-A1a1...Z9z9
-        ```
+    ```console
+    git clone https://github.com/Senzing/senzing-with-chatgpt-notebook.git
+    ```
 
-    1. Build the Docker image.
-       Example:
+    1. The following example command are issued from the repository directory.
 
-        ```console
-        make build
-        ```
+1. Build the Docker image.
+   Example:
 
-    1. Run the Docker container.
-       Example:
+    ```console
+    make build
+    ```
 
-        ```console
-        make run
-        ```
+1. Set the environment variable `OPENAI_API_KEY` to your OpenAI API Key.
+   Example:
+
+    ```console
+    export OPENAI_API_KEY=sk-A1a1...Z9z9
+    ```
+
+1. Run the Docker container.
+   Example:
+
+    ```console
+    make run
+    ```
 
 1. Open the Jupyter notebook demonstration.
     1. Visit [http://localhost:8888/notebooks/demo.ipynb](http://localhost:8888/notebooks/demo.ipynb)
