@@ -21,6 +21,16 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 
 ## Quickstart
 
+Simply view the Python notebook which shows the fully executed Python.
+
+1. Visit [demo.ipnb](demo.ipynb)
+
+## Run the demonstation locally
+
+1. Make sure you have:
+    1. [OpenAI GPT-4 API Access](https://openai.com/waitlist/gpt-4-api)
+    1. [OpenAI API Key](https://platform.openai.com/account/api-keys)
+
 1. Clone the repository.
    Example:
 
