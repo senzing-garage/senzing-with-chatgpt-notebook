@@ -50,12 +50,16 @@ A demo of Senzing Conversational AI for Entity Resolution announced in this
 
 ## Data
 
-The included SQLite db is already preloaded with the [truth-sets data](https://github.com/Senzing/truth-sets).
+The demonstration includes a SQLite database already preloaded with the
+[truth-sets data](https://github.com/Senzing/truth-sets).
 
 If you want to use your own data, you can either:
 
-- Follow the [Quickstart for Docker](https://senzing.zendesk.com/hc/en-us/articles/12938524464403-Quickstart-For-Docker) guide.
-- Modify `SENZING_ENGINE_CONFIGURATION_JSON` in [devcontainer.env](https://github.com/kakugawa/senzing-entity-resolution-plugin/blob/main/.devcontainer/devcontainer.env).
+1. Follow the [Quickstart for Docker](https://senzing.zendesk.com/hc/en-us/articles/12938524464403-Quickstart-For-Docker) guide.
+1. Modify
+   [SENZING_ENGINE_CONFIGURATION_JSON](https://github.com/Senzing/knowledge-base/blob/main/lists/environment-variables.md#senzing_engine_configuration_json)
+   in
+   [devcontainer.env](https://github.com/kakugawa/senzing-entity-resolution-plugin/blob/main/.devcontainer/devcontainer.env).
 
 ## Cleanup
 
