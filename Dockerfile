@@ -1,5 +1,4 @@
-FROM senzing/senzingapi-tools:staging
-
+FROM senzing/senzingapi-runtime:3.8.0
 #
 # Required Packages
 #
