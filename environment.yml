@@ -1,11 +1,11 @@
 name: base
 dependencies:
-  - pip=20.0.2
-  - ipykernel=6.14.0
-  - ipywidgets=8.1.2
-  - jupyter=1.0.0
-  - openai=0.11.4
-  - pytest=8.1.1
-  - termcolor=1.1.0
+  - pip
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - openai
+  - pytest
+  - termcolor
   - pip:
-      - pytest-cov==4.1.0
+      - pytest-cov
