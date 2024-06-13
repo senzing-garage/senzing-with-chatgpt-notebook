@@ -23,13 +23,13 @@ ENV PATH=$CONDA_DIR/bin:$PATH
 WORKDIR /workspaces/senzing-with-chatgpt-notebook
 COPY . /workspaces/senzing-with-chatgpt-notebook
 
-HEALTHCHECK CMD echo "healthcheck placeholder"
-
-USER 1001
-
 ENV SENZING_ENGINE_CONFIGURATION_JSON='{"PIPELINE" : {"CONFIGPATH" : "/etc/opt/senzing", "RESOURCEPATH" : "/opt/senzing/g2/resources", "SUPPORTPATH" : "/opt/senzing/data" }, "SQL" : { "CONNECTION" : "sqlite3://na:na@/workspaces/senzing-with-chatgpt-notebook/var/sqlite/G2C.db" }}'
 
 RUN conda env update
+
+HEALTHCHECK CMD echo "healthcheck placeholder"
+
+USER 1001
 
 CMD ["jupyter", "notebook", "--config", ".jupyter/jupyter_notebook_config.py"]
 
