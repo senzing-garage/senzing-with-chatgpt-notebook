@@ -1,4 +1,4 @@
-FROM senzing/senzingapi-runtime:3.9.0
+FROM senzing/senzingapi-runtime:3.10.3
 #
 # Required Packages
 #
