@@ -1,4 +1,7 @@
-FROM senzing/senzingapi-runtime:3.9.0
+FROM senzing/senzingapi-runtime:3.10.3
+
+USER root
+
 #
 # Required Packages
 #
@@ -32,4 +35,3 @@ HEALTHCHECK CMD echo "healthcheck placeholder"
 USER 1001
 
 CMD ["jupyter", "notebook", "--config", ".jupyter/jupyter_notebook_config.py"]
-
