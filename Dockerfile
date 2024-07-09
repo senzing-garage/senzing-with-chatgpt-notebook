@@ -1,4 +1,7 @@
 FROM senzing/senzingapi-runtime:3.10.3
+
+USER root
+
 #
 # Required Packages
 #
@@ -29,4 +32,3 @@ ENV SENZING_ENGINE_CONFIGURATION_JSON='{"PIPELINE" : {"CONFIGPATH" : "/etc/opt/s
 RUN conda env update
 
 CMD ["jupyter", "notebook", "--config", ".jupyter/jupyter_notebook_config.py"]
-
