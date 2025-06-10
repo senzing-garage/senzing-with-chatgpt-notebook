@@ -1,0 +1,48 @@
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": [
+    "Antoun",
+    "Blacklick",
+    "buildx",
+    "CCLA",
+    "CEXCL",
+    "CODEOWNER",
+    "CONFIGPATH",
+    "CSTAB",
+    "Daniella",
+    "DEXCL",
+    "DOCKERHUB",
+    "DRLIC",
+    "dsrc",
+    "ERRULE",
+    "FMES",
+    "FVME",
+    "Garsky",
+    "ICLA",
+    "ipykernel",
+    "ipynb",
+    "ipywidgets",
+    "Kusha",
+    "Muhammed",
+    "PNAME",
+    "pytest",
+    "RELSHIPS",
+    "RESOURCEPATH",
+    "Sentosa",
+    "Senzing",
+    "senzingapi",
+    "stackoverflow",
+    "SUPPORTPATH",
+    "termcolor",
+    "WATCHLIST"
+  ],
+  "ignorePaths": [
+    ".git/**",
+    ".gitignore",
+    "demo.ipynb"
+  ]
+}
