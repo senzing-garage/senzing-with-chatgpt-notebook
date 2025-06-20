@@ -1,4 +1,4 @@
-FROM senzing/senzingapi-runtime:3.12.6
+FROM senzing/senzingapi-runtime:3.12.8
 
 USER root
 
